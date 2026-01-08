@@ -64,7 +64,7 @@ QUANTUM-SIMULATIONS/
 ### 1️⃣ Clone the repository
 
 ###
-git clone https://github.com/USERNAME/quantum-simulations.git
+git clone https://github.com/costelloelvis/quantum-simulations.git
 cd quantum-simulations
 ###
 
