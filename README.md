@@ -86,7 +86,8 @@ Exploratory research in quantum simulations
 
 Prototyping quantum algorithms and physical models
 
-A foundational understanding of linear algebra and quantum mechanics is assumed.
+N.B:-
+   A foundational understanding of linear algebra and quantum mechanics is assumed.
 
 8. Future Work
 
