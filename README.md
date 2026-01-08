@@ -6,7 +6,7 @@ Computational & Quantum Simulations
 
 Abstract
 
-We present a collection of numerical simulations exploring fundamental concepts in quantum mechanics and quantum computing, implemented using modern Python-based scientific libraries. The project integrates simulations of quantum gates, multi-qubit circuits, quantum state evolution, and OpenQASM-defined circuits, alongside physically motivated models such as Rabi oscillations, Auger recombination, quantum-dot photoluminescence, and the Quantum Confined Stark Effect (QCSE). By combining statevector methods, operator-based dynamics, and circuit-level simulations, this work provides a unified computational framework for both quantum information science and condensed-matter–inspired quantum systems.
+I present a collection of numerical simulations exploring fundamental concepts in quantum mechanics and quantum computing, implemented using modern Python-based scientific libraries. The project integrates simulations of quantum gates, multi-qubit circuits, quantum state evolution, and OpenQASM-defined circuits, alongside physically motivated models such as Rabi oscillations, Auger recombination, quantum-dot photoluminescence, and the Quantum Confined Stark Effect (QCSE). By combining statevector methods, operator-based dynamics, and circuit-level simulations, this work provides a unified computational framework for both quantum information science and condensed-matter–inspired quantum systems.
 
 1. Introduction
 
