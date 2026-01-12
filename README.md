@@ -5,7 +5,8 @@ The project combines **numerical quantum physics**, **quantum circuits**, and **
 
 ## 📂 Project Structure
 
-QUANTUM-SIMULATIONS/
+QUANTUM-SIMULATIONS
+/
 │
 ├── tests/ # Test scripts
 │ └── bc_test.py
