@@ -70,7 +70,9 @@ cd quantum-simulations
 
 2️⃣ Create a virtual environment (recommended)
 python -m venv venv
+
 venv\Scripts\activate     # Windows
+
 source venv/bin/activate   # Linux
 
 3️⃣ Install dependencies
