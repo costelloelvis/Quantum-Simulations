@@ -3,7 +3,7 @@
 This repository contains a collection of **quantum mechanics and quantum computing simulations**, implemented primarily in **Python**.  
 The project combines **numerical quantum physics**, **quantum circuits**, and **QASM-based simulations**, with applications ranging from foundational quantum systems to quantum-dot models.
 
-## 📂 Project Structure
+##  Project Structure
 
 QUANTUM-SIMULATIONS
 /
@@ -38,7 +38,7 @@ QUANTUM-SIMULATIONS
 └── statevector.py # Statevector-based simulations
 
 
-## 🧪 Topics Covered
+##  Topics Covered
 
 - Quantum gates (Hadamard, CNOT, CCNOT)
 - Multi-qubit quantum circuits
@@ -51,7 +51,7 @@ QUANTUM-SIMULATIONS
 - Quantum Confined Stark Effect (QCSE)
 - Auger recombination decay
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 - **Python 3**
 - **NumPy**
@@ -96,7 +96,7 @@ python3 qutip-rabi.py
 
 For best results: run this in visual studio code, vs codium or pycharm.
 
-📈 Outputs & Visualizations
+ Outputs & Visualizations
 Quantum circuit diagrams
 Statevector evolution
 Bloch sphere representations
@@ -104,7 +104,7 @@ Rabi oscillation plots
 Photoluminescence spectra
 Animated quantum rotations (.gif)
 
-🎓 Intended Audience
+ Intended Audience
 This project is suitable for:
 Physics students
 Computational physics learners
@@ -113,16 +113,16 @@ Researchers exploring quantum simulations
 
 A working knowledge of linear algebra and quantum mechanics is recommended.
 
-🚀 Future Work
+ Future Work
 Add noise models and decoherence
 Extend to multi-particle quantum systems
 Implement VQE and quantum algorithms
 GPU acceleration for large simulations
 Improved documentation and notebooks
 
-📜 License
+ License
 This project is released under the MIT License.
 
-👤 Author
+ Author
 Elvis Wanjiru
 Physics | Computational & Quantum Simulations.
