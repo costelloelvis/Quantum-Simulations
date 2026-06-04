@@ -1,128 +1,224 @@
-# Quantum-Simulations
+# Quantum Simulations
 
-This repository contains a collection of **quantum mechanics and quantum computing simulations**, implemented primarily in **Python**.  
-The project combines **numerical quantum physics**, **quantum circuits**, and **QASM-based simulations**, with applications ranging from foundational quantum systems to quantum-dot models.
+A collection of **quantum mechanics**, **quantum computing**, and **computational physics** simulations implemented in Python.
 
-##  Project Structure
+This repository combines numerical modeling of quantum systems with quantum circuit simulations, covering topics from fundamental quantum gates to quantum-dot physics and time-dependent quantum dynamics.
 
-QUANTUM-SIMULATIONS
-/
+## Features
+
+* Quantum gate implementations (Hadamard, CNOT, CCNOT/Toffoli)
+* Multi-qubit statevector simulations
+* Quantum circuits using Qiskit
+* OpenQASM circuit execution and parsing
+* Rabi oscillations and qubit dynamics
+* Time evolution of quantum systems with QuTiP
+* Quantum-dot photoluminescence simulations
+* Quantum Confined Stark Effect (QCSE) modeling
+* Auger recombination decay simulations
+* Quantum visualization tools and animations
+
+---
+
+## Repository Structure
+
+```text
+Quantum-Simulations/
 │
-├── tests/ # Test scripts
-│ └── bc_test.py
+├── tests/
+│   └── bc_test.py
 │
-├── calculator.py # Basic quantum/math utilities
-├── 3D-Hadamard.py # 3D visualization of Hadamard transformations
-├── Auger-Recombination-Decay.py # Auger recombination decay simulation
-├── block_rotation.gif # Quantum rotation visualization
-├── block_rotation.py # Rotation operator simulations
-├── cc_gate.py # Controlled-Controlled (Toffoli) gate
-├── Circuit.png # Quantum circuit diagram
-├── cnot_gate_11_qubits.py # CNOT gate for multi-qubit systems
-├── CNOT_gate.py # Standard CNOT gate implementation
-├── cnot.py # CNOT gate examples
-├── controlled_NOT_gate.py # Controlled-NOT gate simulation
-├── dimple_qasm.qasm # OpenQASM quantum circuit
-├── Hadamard.py # Hadamard gate simulation
-├── main.py # Main entry point for simulations
-├── PL_of_Quantum_Dots_With_Unifo… # Photoluminescence of quantum dots
-├── qas.py # QASM processing utilities
-├── qasm_test.qasm # Test OpenQASM file
-├── Qiskit-Circuit.py # Quantum circuit using Qiskit
-├── qiskit-test.py # Qiskit test simulations
-├── qsm.py # Quantum state manipulation
-├── Quantum-Confined-Stark-Effect… # QCSE simulation
-├── qubit-mesolve.py # Time evolution of qubits
-├── quip-rabi.py # Rabi oscillation simulation
-├── README.md # Project documentation
-└── statevector.py # Statevector-based simulations
+├── calculator.py
+├── 3D-Hadamard.py
+├── Auger-Recombination-Decay.py
+├── block_rotation.py
+├── block_rotation.gif
+├── cc_gate.py
+├── CNOT_gate.py
+├── cnot.py
+├── cnot_gate_11_qubits.py
+├── controlled_NOT_gate.py
+├── Hadamard.py
+├── main.py
+├── qas.py
+├── qsm.py
+├── statevector.py
+├── Qiskit-Circuit.py
+├── qiskit-test.py
+├── qubit-mesolve.py
+├── quip-rabi.py
+├── dimple_qasm.qasm
+├── qasm_test.qasm
+├── Circuit.png
+├── README.md
+│
+├── PL_of_Quantum_Dots_*.py
+└── Quantum_Confined_Stark_Effect_*.py
+```
 
+---
 
-##  Topics Covered
+## Topics Covered
 
-- Quantum gates (Hadamard, CNOT, CCNOT)
-- Multi-qubit quantum circuits
-- Quantum statevectors
-- Quantum circuit simulation with **Qiskit**
-- OpenQASM circuit descriptions
-- Rabi oscillations
-- Quantum time evolution
-- Quantum dots and photoluminescence
-- Quantum Confined Stark Effect (QCSE)
-- Auger recombination decay
+### Quantum Computing
 
-##  Tools & Libraries
+* Qubits and statevectors
+* Hadamard transformations
+* Controlled-NOT (CNOT) gates
+* Toffoli (CCNOT) gates
+* Multi-qubit systems
+* Quantum circuit simulation
+* OpenQASM workflows
+* Quantum circuit visualization
 
-- **Python 3**
-- **NumPy**
-- **SciPy**
-- **Matplotlib**
-- **Qiskit**
-- **QuTiP** (for time evolution and mesolve-based simulations)
-- **OpenQASM**
+### Quantum Physics
 
+* Rabi oscillations
+* Time-dependent Schrödinger evolution
+* Quantum state dynamics
+* Quantum-dot photoluminescence
+* Quantum Confined Stark Effect (QCSE)
+* Auger recombination processes
 
-### 1️⃣ Clone the repository
+---
 
-###
-git clone https://github.com/costelloelvis/quantum-simulations.git
-cd quantum-simulations
-###
+## Technologies Used
 
-2️⃣ Create a virtual environment (recommended)
+* Python 3
+* NumPy
+* SciPy
+* Matplotlib
+* Qiskit
+* QuTiP
+* OpenQASM
+
+---
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/costelloelvis/Quantum-Simulations.git
+cd Quantum-Simulations
+```
+
+### Create a Virtual Environment
+
+#### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
 python -m venv venv
+venv\Scripts\activate
+```
 
-venv\Scripts\activate     # Windows
+### Install Dependencies
 
-source venv/bin/activate   # Linux
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-
-(If requirements.txt is missing, install manually:)
-
+```bash
 pip install numpy scipy matplotlib qiskit qutip
+```
 
-4️⃣ Run a simulation
+Or, if available:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running Simulations
+
+Run the main program:
+
+```bash
 python main.py
+```
 
+Run individual simulations:
 
-Or run individual modules:
+```bash
+python Hadamard.py
+python qiskit-test.py
+python qubit-mesolve.py
+python quip-rabi.py
+```
 
-python3 Hadamard.py
-python3 qiskit-test.py
-python3 qutip-rabi.py
+---
 
-For best results: run this in visual studio code, vs codium or pycharm.
+## Example Outputs
 
- Outputs & Visualizations
-Quantum circuit diagrams
-Statevector evolution
-Bloch sphere representations
-Rabi oscillation plots
-Photoluminescence spectra
-Animated quantum rotations (.gif)
+The simulations can generate:
 
- Intended Audience
-This project is suitable for:
-Physics students
-Computational physics learners
-Quantum computing enthusiasts
-Researchers exploring quantum simulations
+* Quantum circuit diagrams
+* Statevector visualizations
+* Bloch sphere representations
+* Rabi oscillation plots
+* Quantum-dot spectra
+* Animated quantum rotations
+* OpenQASM circuit results
 
-A working knowledge of linear algebra and quantum mechanics is recommended.
+---
 
- Future Work
-Add noise models and decoherence
-Extend to multi-particle quantum systems
-Implement VQE and quantum algorithms
-GPU acceleration for large simulations
-Improved documentation and notebooks
+## Educational Applications
 
- License
+This repository is suitable for:
+
+* Physics students
+* Computational physics learners
+* Quantum computing enthusiasts
+* Undergraduate research projects
+* Researchers exploring quantum simulations
+
+A basic understanding of:
+
+* Linear Algebra
+* Quantum Mechanics
+* Python Programming
+
+is recommended.
+
+---
+
+## Future Development
+
+Planned improvements include:
+
+* Noise models and decoherence simulations
+* Variational Quantum Eigensolver (VQE)
+* Quantum optimization algorithms
+* Multi-particle quantum systems
+* GPU-accelerated simulations
+* Interactive Jupyter notebooks
+* Improved documentation and tutorials
+
+---
+
+## Contributing
+
+Contributions, bug reports, and feature requests are welcome.
+
+Feel free to fork the repository and submit pull requests.
+
+---
+
+## License
+
 This project is released under the MIT License.
 
- Author
-Elvis Wanjiru
-Physics | Computational & Quantum Simulations.
+---
+
+## Author
+
+**Elvis Wanjiru**
+
+Physics • Computational Physics • Quantum Computing
+
+GitHub: https://github.com/costelloelvis
+
+*"Exploring quantum systems through simulation, computation, and visualization."*
