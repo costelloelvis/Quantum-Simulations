@@ -137,16 +137,16 @@ pip install -r requirements.txt
 Run the main program:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 Run individual simulations:
 
 ```bash
-python Hadamard.py
-python qiskit-test.py
-python qubit-mesolve.py
-python quip-rabi.py
+python3 Hadamard.py
+python3 qiskit-test.py
+python3 qubit-mesolve.py
+python3 quip-rabi.py
 ```
 
 ---
